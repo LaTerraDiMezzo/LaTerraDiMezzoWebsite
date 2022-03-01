@@ -1,0 +1,35 @@
+<br>
+<mat-divider>
+</mat-divider>
+<br>
+<p>
+    <span i18n="Language switch@@FooterLanguageSwitch">
+        Languages:
+    </span>
+    <a class="w" [href]="informations.CurrentURL + '/en-US'">English (US)</a>
+    -
+    <a class="w" [href]="informations.CurrentURL + '/it'">Italian</a>
+</p>
+<p i18n="Versions list@@FooterVersions">
+    <span>
+        Versions:
+    </span>
+    <br>
+    <a mat-button [disabled]="informations.CurrentURL == informations.StableURL" [href]="informations.StableURL">
+        Stable
+    </a>
+    &nbsp;
+    <a mat-button [disabled]="informations.CurrentURL == informations.BetaURL" [href]="informations.BetaURL">
+        Beta
+    </a>
+    &nbsp;
+    <a mat-button [disabled]="informations.CurrentURL == informations.AlphaURL" [href]="informations.AlphaURL">
+        Alpha
+    </a>
+</p>
+<p class="copyright" i18n="Copyright string@@FooterCopyright">
+    Copyright
+    {{ informations.Copyright }}
+    {{ informations.Name }}.
+    All rights reserved.
+</p>

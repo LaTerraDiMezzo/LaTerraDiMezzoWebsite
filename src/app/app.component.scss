@@ -1,0 +1,42 @@
+.content {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .content {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .content {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .content {
+        max-width: 1320px;
+    }
+}
+
+.loader {
+  position: absolute;
+  z-index: 2;
+}

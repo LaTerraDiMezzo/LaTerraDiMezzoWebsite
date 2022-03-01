@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="SiteName" datatype="html">
+        <source>La Terra di Mezzo</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/data/informations.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Site name</note>
+      </trans-unit>
+      <trans-unit id="404Title" datatype="html">
+        <source> Error 404 :( </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error/error.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+        <note priority="1" from="description">404 card title</note>
+      </trans-unit>
+      <trans-unit id="404Subtitle" datatype="html">
+        <source> This is not the page you&apos;re looking for. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error/error.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+        <note priority="1" from="description">404 card subtitle</note>
+      </trans-unit>
+      <trans-unit id="404Content" datatype="html">
+        <source> We&apos;re really sorry, but we couldn&apos;t find the page you requested. Are you sure you didn&apos;t follow the wrong link? </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error/error.component.html</context>
+          <context context-type="linenumber">10,12</context>
+        </context-group>
+        <note priority="1" from="description">404 card content</note>
+      </trans-unit>
+      <trans-unit id="404HomeLink" datatype="html">
+        <source> Return to homepage </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error/error.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+        <note priority="1" from="description">Home Link</note>
+      </trans-unit>
+      <trans-unit id="ErrorPageHTMLTitle" datatype="html">
+        <source>Error 404</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/error/error.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">Error page title</note>
+      </trans-unit>
+      <trans-unit id="FooterLanguageSwitch" datatype="html">
+        <source> Languages: </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">6,8</context>
+        </context-group>
+        <note priority="1" from="description">Language switch</note>
+      </trans-unit>
+      <trans-unit id="FooterVersions" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/> Versions: <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/><x id="START_LINK" ctype="x-a" equiv-text="&lt;a mat-button [disabled]=&quot;informations.CurrentURL == informations.StableURL&quot; [href]=&quot;informations.StableURL&quot;&gt;"/> Stable <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>   <x id="START_LINK_1" equiv-text="&lt;a mat-button [disabled]=&quot;informations.CurrentURL == informations.BetaURL&quot; [href]=&quot;informations.BetaURL&quot;&gt;"/> Beta <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>   <x id="START_LINK_2" equiv-text="&lt;a mat-button [disabled]=&quot;informations.CurrentURL == informations.AlphaURL&quot; [href]=&quot;informations.AlphaURL&quot;&gt;"/> Alpha <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">14,28</context>
+        </context-group>
+        <note priority="1" from="description">Versions list</note>
+      </trans-unit>
+      <trans-unit id="FooterCopyright" datatype="html">
+        <source> Copyright <x id="INTERPOLATION" equiv-text="{{ informations.Copyright }}"/> <x id="INTERPOLATION_1" equiv-text="{{ informations.Name }}"/>. All rights reserved.
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">30,35</context>
+        </context-group>
+        <note priority="1" from="description">Copyright string</note>
+      </trans-unit>
+      <trans-unit id="HomePageWelcomeCardTitle" datatype="html">
+        <source> Welcome to <x id="INTERPOLATION" equiv-text="{{ informations.Name }}"/>! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">3,6</context>
+        </context-group>
+        <note priority="1" from="description">Home page welcome card title</note>
+      </trans-unit>
+      <trans-unit id="HomePageWelcomeCardSubtitle" datatype="html">
+        <source> First time here? Unfortunately the site is new and not finished (yet). </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+        <note priority="1" from="description">Home page welcome card subtitle</note>
+      </trans-unit>
+      <trans-unit id="HomePageWelcomeCardContent" datatype="html">
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> As more features will be added, new things will appear in the home page! <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.html</context>
+          <context context-type="linenumber">12,14</context>
+        </context-group>
+        <note priority="1" from="description">Home page welcome card content</note>
+      </trans-unit>
+      <trans-unit id="HomePageHTMLTitle" datatype="html">
+        <source>Home</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home/home.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <note priority="1" from="description">Home page title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
